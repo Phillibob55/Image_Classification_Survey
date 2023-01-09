@@ -1,15 +1,13 @@
 # Image_Classification_Survey
 
-**Model Analysis Report on Multiple Datasets**
-
-**Datasets Used:**
+# Datasets Used
 
 1.  Cifar10
 2.  STL10
 3.  Chest X-ray
 4.  ImageNet-Mini
 
-**Models trained:**
+# Models trained
 
 1.  DenseNet
 2.  DLA
@@ -19,13 +17,13 @@
 6.  Preact Resnet
 7.  ResNext
 
-**Early stopping criteria:**
+# Early stopping criteria:
 
 The following class was used to stop training of the models:
 
 ![](images/md4.png)
 
-**Comparison (Validation Accuracy Percentage):**
+# Comparison (Validation Accuracy Percentage)
 
 |                   | **Cifar10** | **STL10** | **Chest X-ray** | **ImageNet Mini** |
 |-------------------|-------------|-----------|-----------------|-------------------|
@@ -37,7 +35,7 @@ The following class was used to stop training of the models:
 | **Preact Resnet** | 83.97       | 59.78     | 99.65           | 42.72             |
 | **ResNext**       | 81.87       | 61.12     | 98.94           | 46.28             |
 
-**Why DenseNet is the SOTA model:**
+# Why DenseNet is the SOTA model
 
 As we can see from the table above, DenseNet is the highest scoring for STL10 and Cifar10 while also performing really well on Chest X-ray dataset. Only for ImageNet can we see DPN performing considerably better than DenseNet and we will look into that in detail.
 
